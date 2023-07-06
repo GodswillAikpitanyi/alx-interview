@@ -29,4 +29,3 @@ def canUnlockAll(boxes):
                 stack.append(key)
 
     return all(unlocked_boxes)
-
