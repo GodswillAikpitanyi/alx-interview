@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Calculate the minimum operation required for a task to occur"""
+
+
 import math
 
 
