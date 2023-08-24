@@ -3,6 +3,7 @@
 Change comes from within
 """
 
+
 def makeChange(coins, total):
     """
     Returns the fewest number of coins needed to make a change
@@ -19,4 +20,3 @@ def makeChange(coins, total):
             total = total % coin
 
     return temporary_value if total == 0 else -1
-
