@@ -16,7 +16,10 @@ def isWinner(x, nums):
     rounds = 0
     # for i in nums:
     while rounds < x:
-        i = nums[rounds]
+        if rounds >= len(nums):
+            i = 10000
+        else:
+            i = nums[rounds]
         no_prime = 0
 
         for j in range(1, i + 1):
